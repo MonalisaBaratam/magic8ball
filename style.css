@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Finlandica:ital@1&family=Gentium+Book+Plus:ital@1&family=Josefin+Sans:ital,wght@1,500&family=PT+Serif:wght@700&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@600&family=Roboto:ital,wght@1,500&family=Splash&family=The+Nautigal:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    background: linear-gradient(45deg, rgb(63, 8, 63)
+    , rgb(98, 13, 98),rgb(132, 11, 132),rgb(134, 73, 134));
+    color: white;
+    height: 65px;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Playfair Display', serif;
+}
+nav ul
+{
+    list-style-type: none;
+}
+body
+{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.main
+{
+    padding-top: 3vh;
+    display: grid;
+    justify-content: center;
+}
+.ball
+{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, rgb(63, 8, 63)
+    , rgb(98, 13, 98),rgb(132, 11, 132),rgb(134, 73, 134));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputfile
+{
+    display: flex;
+    justify-content: center;
+}
+input
+{
+    border: 2px solid rgb(63, 8, 63);
+    position: absolute;
+    top: 65vh;
+    padding: 15px 50px 15px 15px;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 0 0 3px purple;
+}
+input:focus
+{
+    outline: 2px solid rgb(98, 13, 98);
+}
+button
+{
+    position: absolute;
+    top: 75vh;
+    padding: 10px 80px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(132, 11, 132);
+    color: white;
+    border: 2px solid ,rgb(134, 73, 134);
+}
+button:hover
+{
+    background-color:rgb(134, 73, 134);
+}
+button:active
+{
+    background-color: rgb(180, 137, 180);
+}
+#response
+{
+    width: 70px;
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 120px;
+}
+.whitesurface
+{
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
